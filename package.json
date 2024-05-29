@@ -1,0 +1,10 @@
+{
+  "name": "sendit-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "box:start": "docker compose up",
+    "box:stop": "docker compose down",
+    "make:sh": "docker compose exec backend bash"
+  }
+}
